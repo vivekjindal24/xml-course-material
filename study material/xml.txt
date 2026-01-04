@@ -1,0 +1,2107 @@
+
+   What Is the Internet?
+• A network of networks, joining many government,
+  university and private computers together and providing an
+  infrastructure for the use of E-mail, bulletin boards, file
+  archives, hypertext documents, databases and other
+  computational resources
+• The vast collection of computer networks which form and
+  act as a single huge network for transport of data and
+  messages across distances which can be anywhere from
+  the same office to anywhere in the world.
+
+
+
+
+Written by William F. Slater, III
+1996
+President of the Chicago Chapter of the Internet Society
+  What is the Internet?
+
+• The largest network of networks in the world.
+• Uses TCP/IP protocols and packet switching .
+   Key Milestones in Evolution of Internet
+ 1950's
+>ARPA (Advanced Research Projects Agency)
+ 1970-
+>ARPANET creates precursor to Transmission Control Protocol (TCP)
+ 1971
+>Universities added to net
+>Telnet and FTP are available
+ 1972
+>First electronic mail message sent
+ 1973-
+>ARPANET connected to England and Norway
+ 1974-
+>TCP starts being used for communicating across a
+system of networks
+ 1982-
+>US DoD starts building defense data networks based
+on ARPANET technology
+ 1983-
+>ARPANET splits into ARPANET and MILNET
+ 1983-
+>Internet now in place
+>TCP/IP standardized
+ 1986-
+>National Science Foundation (NSF) implements NFSNET;
+a system of regional network of routers connected over a backbone
+network
+ 1991-
+>Archie and Gopher released
+
+ 1992-
+>Internet links more that 17,000 networks in 33 countries; 3 million
+hosts
+ 1993-
+>World Wide Web is launched
+ 1995-
+>Interconnected network providers start offering service
+ 1995-
+>About 30 million users
+                              
+Growth of Internet
+
+
+Important Internet Applications
+
+• Telnet
+• File Transfer Protocol (FTP)
+• Electronic Mail (Email)
+• Gopher
+• Internet Relay Chat (IRC)
+• Usenet News
+• World Wide Web (WWW)
+                                 Request for Comments (RFC)
+
+
+
+          
+Internet Standards and RFC’s
+ The Internet Society
+>Internet Architecture Board (IAB)
+>Internet Engineering Task Force (IETF)
+> Internet Engineering Steering Group (IESG)
+
+
+ Request for Comments (RFC) Publication
+>The actual development of new standards is carried out by working
+>Membership is voluntary    
+The process involved:
+>The working group makes a draft version of
+the document.
+>Places it in the "Internet Draft" online
+directory.
+>Kept there for six months, and review and
+comments on the draft obtained.
+RFP Publication Process
+
+
+
+
+     
+Important RFC’S
+RFC821: Simple Mail Transfer Protocol
+RFC791: Internet Protocol
+RFC793: Transmission Control Protocol
+RFC2616: Hypertext Transfer Protocol 1.1
+RFC2045: MIME
+RFC1321: MD5 Message Digest Algorithm
+RFC1866: Hypertext Markup Language 2.0
+RFC2437: RSA Crypto Specifications 2.0
+RFC2631: Diffie-Hellman Key Agreement
+WWW
+ Latest revolution in the internet scenario.
+ Allows multimedia documents to be shared between machine
+ >Containing text, image, audio, video, animation.
+ Basically a huge collection of inter-linked documents.
+ >Billions of documents.
+ >Inter-linked in any possible way.
+ > Resembles a cob-web.
+
+
+                               Where do the documents reside?
+ > On web servers.
+ >Also called Hyper Text Transfer Protocol (HTTP) servers.
+ They are typically written in
+ > Hyper Text Markup Language (HTML).
+ Documents get formatted/displayed using
+ > Web browsers
+  • Internet Explorer
+  • Netscape
+  • Mosaic
+  • Konquerer                    
+  URL
+ They are the mechanism by which documents are addressed in the
+  WWW.
+ A URL contains the following information:
+ >Name of the site containing the resource.
+ >The type of service to be used to access the resource (ftp, http, etc.).
+ >The port number of the service.
+  • Default assumed, if omitted.
+ >Location of the resource (path name) in the server.
+
+                                   
+Getting Started with Structured Documents
+
+
+    • We print documents
+    • we display them in Web browsers
+    • personal digital assistant (PDA) screens, and cell phone screens.
+    • We integrate them with databases.
+    • We create customized documents for specific applications.
+    The days of simply writing and printing documents are over.
+    Not only are we reusing information, we’re exchanging information more and more.
+    The sheer volume of the information we need to exchange is greater than ever
+    before, and it can’t be tied to proprietary platforms or vendors. Just as Java provided
+    a platform-independent programming language, we needed a platform- independent
+    means of exchanging information. Extensible Markup Language (XML) is that
+    means.
+
+
+                                           • Before we dive into XML, we’re going to look at the concept of structured docu-
+ments. This will lay the groundwork for you to understand the concepts behind XML,
+as well as specifics of XML syntax.
+• A simple document may be loosely structured. If you understand that most
+documents have a structure — loose or rigid — it’s not a far leap for you to
+understand XML documents. Two examples of loose document structure are:
+• An HTML Page: Within an HTML page, you may have a heading (markedby the
+  heading tag <H1>) followed by a paragraph (marked by the para- graph tag
+  <P>). Other headings occur on the page with paragraphs after them. You may
+  have any number of paragraphs or headings.
+• . A paper document: In a printed letter, you may have a date, sender’s address,
+  recipient’s address, a salutation, the letter body, and a close.
+
+
+
+
+• In the HTML and paper document examples, there is a very loose structure. There are not, however, any
+  steadfast rules governing the order of items on thepage or the number of paragraphs (neither a
+  minimum nor a maximum) in the document.
+• XML documents are structured documents. They may follow a strict structure, where certain parts
+  occur in a particular order with predefined frequency, or they may be loosely structured. XML
+  documents with a strict structure receive their structure from a set of structure rules that are assigned
+  to the document.
+
+
+
+
+                                              
+The challenging demands for reusing information
+
+    Organizations in the twenty-first century need to manage more information in more types of media
+    (paper, Web, CD, digital devices) than ever before. Examples of the types of data a company might be
+    publishing to these media are:
+    • Customer databases
+    • Product catalogs
+    • Products and services data
+    • Web sites
+    • Marketing materials
+    • Personnel information
+    • Informational CD-ROMs
+    • Messages
+    There may be overlap among these items. Or, there may be data in one format (for example, a
+    database) that the company would like to push into another format (like an online catalog) or
+    perhaps even several formats.
+
+
+
+                                            Customization of deliverables
+
+  • Customization of data to send to clients is possible with advanced software tools.
+    Tools on the market now allow you to manipulate a deliverable to include a
+    customer’s name, purchase specifications (basic service plan, premium service
+    plan, and so on), and related contact information — even custom pricing or
+    discount information for each client’s deliverable.
+    • But if the customization of deliverables is not fully automated, there is more room
+    for error and you must spend extra time checking and reviewing the final deliverable.
+    If, however, a system is fully automated, there is little chance of errors and multiple
+    outputs for multiple clients become easy. XML provides the ability to fully automate
+    this information by combining publishing and scripting capabilitieswith database
+    connectivity.
+
+
+
+
+                                           • Data republishing/repurposing
+• Republishing information in multiple formats is sometimes difficult, depending on
+  the tool selected. In fact, tools like Adobe FrameMaker are gaining popularity
+  because of their ability to output from one document type into several media
+  formats. This is why one of the greatest benefits of XML is the “X” — extensible is
+  the key. XML may be written to fit a specific need, attached to databases, and out-
+  putted from documentation systems. In addition, it can be expanded without
+  breaking because of its extensibility!
+
+
+QUIZ YOURSELF
+
+
+1.   Does an e-mail message have structure? (See “Getting Started withStructured
+     Documents.”)
+2.   True or False: An XML document may have structure rules assigned to it. (See “Getting
+     Started with Structured Documents.”)
+3.   When no document rules exist, what prevents you from erroneously tag-ging your
+     information? (See “Document structure explored.”)
+4.   What are some of the limitations of binary files? (See “Comparison of digital document
+     types.”)
+5.   Can XML be used to publish a piece of information to several formats?(See “Data
+     republishing/repurposing.”)
+
+
+
+
+                                             XML overview
+• XML can store and organize just about any kind of information in a form that is
+tailored to your needs.
+• As an open standard, XML is not tied to the fortunes of any single company, nor
+married to any particular software.
+• With Unicode as its standard character set, XML supports a staggering number of
+writing systems (scripts) and symbols, from Scandinavian runic characters to
+Chinese Han ideographs.
+• XML offers many ways to check the quality of a document, with rules for syntax,
+internal link checking, comparison to document models, and data typing.
+ • With its clear, simple syntax and unambiguous structure, XML is easy to read and
+parse by humans and programs alike.
+• XML is easily combined with stylesheets to create formatted documents in any
+style you want. The purity of the information structure does not get in the way of
+format conversions.
+                               What Is XML?
+
+This question is not an easy one to answer.
+1. On one level, XML is a protocol for containing and managing
+    information.
+2. On another level, it's a family of technologies that can do
+    everything from formatting documents to filtering data.
+3. And on the highest level, it's a philosophy for information handling
+    that seeks maximum usefulness and flexibility for data by refining it
+    to its purest and most structured form.
+
+
+Markup languages
+• Note that despite its name, XML is not itself a markup language: it's a set of
+  rules for building markup languages.
+• So what exactly is a markup language?
+Markup is information added to a document that enhances its meaning in
+certain ways, in that it identifies the parts and how they relate to each other.
+For example, when you read a newspaper, you can tell articles apart by their
+spacing and position on the page and the use of different fonts for titles and
+headings.
+Markup works in a similar way, except that instead of space, it uses symbols.
+
+
+• A markup language is a set of symbols that can be placed in the text of a
+  document to demarcate and label the parts of that document.
+• Markup is important to electronic documents because they are processed
+  by computer programs.
+• If a document has no labels or boundaries, then a program will not know
+  how to treat a piece of text to distinguish it from any other piece.
+• Essentially, the program would have to work with the entire document as a
+  unit, severely limiting the interesting things you can do with the content. A
+  newspaper with no space between articles and only one text style would
+  be a huge, uninteresting blob of text. You could probably figure out where
+  one article ends and another starts, but it would be a lot of work. A
+  computer program wouldn't be able to do even that, since it lacks all but
+  the most basic pattern-matching skills
+• Luckily, markup is a solution to these problems.
+
+                  Here is an example of how XML markup looks
+when embedded in a piece of text:
+• <message>
+• <exclamation>Hello, world! </exclamation>
+• <paragraph>XML is <emphasis> fun</emphasis> and
+• <emphasis>easy</emphasis> to use.<graphic fileref="smiley
+  face.pict"/>
+• </paragraph>
+• </message>
+
+
+
+                              
+This snippet includes the following markup symbols, or tags:
+The tags <messages >and </message> mark the start and end points of
+the whole XML fragment.
+The tags <exclamation> and </exclamation> surround the text Hello,
+world.
+The tags <paragraph and </paragraph Surround a larger region of text
+and tags.
+Some <emphasis> and </emphasis> tags label individual words.
+A <graphic fileref="smiley face.pict"/> tag marks a place in the text to
+Insert a picture.
+
+                                 Comparison with HTML
+HTML                                                      XML
+HTML is used to display data and focuses on how data XML is a software and hardware independent tool
+looks.                                               used to transport and store data. It focuses on what
+                                                     data is.
+HTML is a markup language itself.                         XML provides a framework to define markup
+                                                          languages.
+HTML is not case sensitive.                               XML is case sensitive.
+HTML is a presentation language.                         XML is neither a presentation language nor a
+                                                         programming language.
+HTML has its own predefined tags.                        You can define tags according to your need.
+In HTML, it is not necessary to use a closing XML makes it mandatory to use a closing tag.
+tag.
+HTML is static because it is used to display data.       XML is dynamic because it is used to transport
+                                                         data.
+                                      
+HTML does not preserve whitespaces.                      XML preserve whitespaces.
+Rules for writing XML
+The syntax rules of XML are very simple and logical. The rules are easy to learn,
+and easy to use.
+1. XML Documents Must Have a Root Element
+2. The XML Prolog (<?xml version="1.0" encoding="UTF-8"?>)
+3. All XML Elements Must Have a Closing Tag
+4. XML Tags are Case Sensitive
+5. XML Elements Must be Properly Nested
+6. XML Attribute Values Must Always be Quoted(<note date="12/11/2007">)
+7. Entity References
+8. White-space is Preserved in XML
+    XML documents that conform to the syntax rules above are said to be "Well
+    Formed" XML documents.
+
+<?xml version="1.0" encoding="UTF
+-8"?>
+• The XML prolog is optional. If it exists, it must come
+  first in the document.
+• XML documents can contain international characters,
+  like Norwegian øæå or French êèé.
+• To avoid errors, you should specify the encoding used,
+  or save your XML files as UTF-8.
+• UTF-8 is the default character encoding for XML
+  documents.
+• UTF-8 is also the default encoding for HTML5, CSS,
+  JavaScript, PHP, and SQL.
+
+                      
+Entity References
+• Some characters have a special meaning in XML.
+• If you place a character like "<" inside an XML element, it will generate an
+  error because the parser interprets it as the start of a new element.
+• This will generate an XML error:
+• <message>salary < 1000</message>
+• To avoid this error, replace the "<" character with an entity reference:
+• <message>salary &lt; 1000</message>
+• There are 5 pre-defined entity references in XML:
+ &lt;                  <                                 less than
+
+ &gt;                  >                                 greater than
+
+ &amp;                 &                                 ampersand
+
+ &apos;                '                                 apostrophe
+
+ &quot;                "                                 quotation mark
+                • <?xml version="1.0" ?>
+• <Company>
+•   <Employee>
+•       <FirstName>Tanmay</FirstName>
+•       <LastName>Patil</LastName>
+•       <ContactNo>1234567890</ContactNo>
+•       <Email>tanmaypatil@xyz.com</Email>
+•       <Address>
+•              <City>Bangalore</City>
+•              <State>Karnataka</State>
+•              <Zip>560212</Zip>
+•       </Address>
+•   </Employee>
+• </Company>
+
+
+
+
+Output-
+
+
+
+Elements, Attributes and values
+• An XML element is everything from (including) the
+  element's start tag to (including) the element's end tag.
+       <price>29.99</price>
+• An element can contain:
+1. text
+2. attributes
+3. other elements
+4. or a mix of the above
+• An element with no content is said to be empty.
+      <element></element>
+    
+• XML elements can have attributes, just like HTML.
+• Attributes are designed to contain data related to a
+  specific element.
+• XML Attributes Must be Quoted
+             <person gender="female">
+      OR <person gender=‘female’>
+
+• There are no rules about when to use attributes or
+  when to use elements in XML.
+
+Containers of Information: XML Elements
+
+  • The term tag refers to a string of characters surrounded by a greater-than and less-
+    than sign. A begin tag looks like this:
+   • <father>
+   • An end tag begins with a forward slash, like this:
+   • </father>
+    • The begin tag, end tag, and content between the tags is known as an XML ele-ment.
+    Figure 6-1 shows a simple XML element and its component parts.
+
+
+• An XML element is the primary building block of an XML document. Think of
+elements as containers of information within your XML documents. Each XML ele-
+ment is a container of information. The name of each element is the name string
+within the begin and end tags. The previous XML fragment, for example, representsan
+XML element named father.
+• For now, an XML element can contain both text content and other XML elements.
+
+
+
+
+
+Empty elements
+
+       •XML also allows a special kind of element, called an empty element. An empty ele-
+       ment has no text content — just an element name. Empty elements can serve as
+       markers in your XML documents.
+      • The following are examples of empty elements:
+      • <linebreak/>
+      • <img src=“xmltable.gif”/>
+       • An empty element consists of a less-than sign, followed by a tag name, followed by a
+       forward-slash, followed by a greater-than sign. The rules for naming an empty
+       element are the same as the rules for naming any other XML element.
+• An XML empty element has the same meaning as an element with no content between the
+  begin and end tags. <linebreak/> and <linebreak></linebreak>, for example, have the
+  same meaning to an application that processes XML documents. Empty element syntax is
+  provided only for convenience
+
+
+
+               
+Containers within containers: Using nested
+elements
+  • You can nest XML elements within other XML elements. By doing so, you can implicitly
+    represent relationships between your XML elements. Your family tree (Session 3), for
+    example, uses the root element <family>.
+   • <family>
+     • <father>Joseph Q. Clark</father>
+     • <mother>Mary J. Clark</mother>
+     • <child>Jennifer Clark</child>
+     • <child>Joseph Q. Clark II</child>
+   • </family>
+    • In this example, the contents of elements <father>, <mother>, and <child>
+    represent members of the same family. When you design your XML documents in
+    later sessions, you will make explicit use of this sort of relationship when you define
+    the legal content of each element.
+
+
+                                         
+Element relationships
+
+
+
+
+        When you nest XML elements, the structure of the XML document conveys implicit
+        meaning. Nesting elements enables you to create complex hierarchical relation-
+        ships in your XML documents. When you begin to create rich, deeply nested
+        documents, it’s especially helpful to have a terminology to describe the
+        relationships between elements. XML provides the following terms to describe the
+        relationship between nested elements:
+        • A parent element is the element that contains the current element. In the
+          previous example, <family> is the parent element of <father>, <mother>,
+          and <child>.
+        • A child element is an element contained within the current element. In the previous
+          example, <father>, <mother>, and <child> are child elements of <family>.
+        • A sibling element is a peer of the current element. Sibling elements share the
+          same parent element. In the previous example, the two <child> elements are
+          siblings.
+
+
+
+    • XML attributes enable you attach additional information to XML elements. If you
+    think of an XML element as a container, then XML attributes are labels on the
+    container. Here are a few simple examples to help you get the idea:
+    • <message urgency=“low”>Be sure to brush your teeth twice each
+      day.</message>
+•
+    • <message urgency=“high”>Touching a live wire may cause
+      serious injury or death.</message>
+
+• Rules for XML attributes
+• XML attributes are an example of the computer science term name/value pair. Each
+  XML attribute has a name and a value. Figure 6-2 shows the name and value com-
+  ponents of an XML attribute within a start tag.
+
+
+
+• An element can have as many attributes as you want. For practical reasons, however, you should limit
+  the number of attributes on each element. Having morethan ten attributes in an element is rare.
+• Attributes are set within the start tag of an element, after the name string but before the closing greater-
+  than sign. Attributes are separated from the tag name by white space — normally a single space, but
+  legally one or more spaces, tabs, or car- riage returns. The value of an XML attribute must be enclosed in
+  quotation marks.
+
+
+
+
+Comparison of Elements and Attributes
+
+
+
+
+• XML users frequently ask, “When should I use elements and when should I use attributes?” There are no
+  absolute rules, but presents some guidelines.
+
+
+
+
+
+XML Elements vs. Attributes
+• <person gender="female">
+    <firstname>Anna</firstname>
+    <lastname>Smith</lastname>
+  </person>
+• <person>
+    <gender>female</gender>
+    <firstname>Anna</firstname>
+    <lastname>Smith</lastname>
+  </person>
+• In the first example, gender is an attribute. In the last
+  example, gender is an element. Both examples provide the
+  same information.
+
+XML Tree Structure
+• XML documents form a tree structure that starts at "the
+  root" and branches to "the leaves".
+
+
+XML Validator
+• A "well formed" XML document is not the same as a "valid"
+  XML document.
+• A "valid" XML document must be well formed. In addition, it
+  must conform to a document type definition.
+• There are two different document type definitions that can
+  be used with XML:
+            DTD - The original Document Type Definition
+            XML Schema - An XML-based alternative to DTD
+• A document type definition defines the rules and the legal
+  elements and attributes for an XML document.
+XML Document Type Declaration
+• XML Document Type Declaration, commonly known as DTD, is a
+  way to describe precisely the XML language. DTDs check the validity
+  of structure and vocabulary of an XML document against the
+  grammatical rules of the appropriate XML language.
+• An XML document can be defined as −
+   1.   Well-formed − If the XML document adheres to all the general XML rules
+        such as tags must be properly nested, opening and closing tags must be
+        balanced, and empty tags must end with '/>', then it is called as well-
+        formed.
+   2.   Valid − An XML document said to be valid when it is not only well-formed,
+        but it also conforms to available DTD that specifies which tags it uses, what
+        attributes those tags can contain, and which tags can occur inside other
+        tags, among other properties.
+
+                                      
+The following diagram represents that a DTD
+is used to structure the XML document −
+
+
+
+
+                   
+Defining Elements in Your DTD
+
+• A DTD, which can be a separate file or included in your XML document, is a listing of elements — your
+  tags — and their properties.
+• Each element is associated with a pattern called a content model that defines the element’s content.
+• By defining the set of elements and rules for each element, you create an XML vocabulary for your
+  documents.
+• This gives your documents a rigid structure to follow.
+
+
+
+
+                                                
+Understanding your DTD’s purpose
+
+ • The purpose of the DTD is to define elements — your tags — for use in your XML documents and to
+   specify the relationship between those elements.
+          • If you want to reuse your XML information, build applications based on your XML
+          documents, and even exchange your XML documents with others, you probably want
+          to make sure that your documents conform to a common structure.
+       • Applications that process your XML documents rely on your documents’ vocabulary
+          to figure out how to process the contents. You can’t effectively reuse and share your
+          XML documents if each document uses a different set of tags.
+ • To maximize the benefits of XML and have many documents consistently work together and perform
+   properly, you need to set up a formal, rigid structure. You can then create XML documents that abide by
+   that structure. After that, you can validate your documents, which is a way of ensuring that the XML
+   documents follow the DTD rules. You can do more with valid XML documents than you can with the
+   loosely structured documents discussed in previous sessions.
+
+
+
+
+                                                 
+IMP Points to remember
+
+• An XML document that follows a DTD is valid XML. An XML document that does not follow a
+  DTD, but is loosely structured instead, is well-formed XML
+• You may find a DTD that suits your purpose by searching the Web or checking with industry
+  groups. If a DTD already exists for your type of document, you may be able to use it as is or
+  modify it. This can save you weeks — months even — in defining your own DTD from scratch
+
+
+
+
+                                            
+Walking through a DTD
+
+• To build a DTD, you need to know the pieces that you are expected to put together.
+• The following lines of your DTD define tags that you can use for your XML documents. Each tag that you
+  use in your document is created as an element in a DTD. In your family.xml document, you had your
+  root tag called family. As an element, its definition here is:
+• <!ELEMENT family (father, mother, offspring?)>
+        • This creates the root element family, and designates the structure that must exist
+        within family. In the family.xml example , you list the father, mother, and
+        offspring in your XML document. Those tags are listed in the family element
+        in the order that they are allowed to occur.
+        • The offspring element includes a ? denoting that it’s optional — a family
+        may be a valid element with father and mother. This is a simplistic example, but
+        is intended just to give you an idea how a DTD and XML document works.
+        • Now if the family element is allowed to contain father, mother, and off-
+        spring, you must create those elements so that the tags are available for you to use.
+        First, you add the father and mother elements to the DTD:
+
+
+                                                
+• <!ELEMENT father (#PCDATA)>
+• <!ELEMENT mother (#PCDATA)>
+
+PCDATA is short for parsed character data. The designation PCDATA means that text may be
+typed within the father and mother tags.
+
+The third element, offspring, does not allow text to be typed in it; instead, it must
+contain other elements that are called child.. We add to the DTD both the
+offspring and child elements.
+• <!ELEMENT offspring (child+)>
+• <!ELEMENT child (#PCDATA)>
+
+
+
+
+                                       
+• The offspring element contains child elements instead of text. The plus (+) means that
+  offspring requires one child element and the child element can repeat.
+• This child element can now contain PCDATA, meaning text may be typed in the element.
+• This means that you can type the children’snames directly between the begin and end tags.
+       • <?xml version=“1.0”?>
+       • <family>
+       • <father>Joseph Q. Clark</father>
+       • <mother>Mary J. Clark</mother>
+       • <offspring>
+       • <child>Jennifer Clark</child>
+         • <child>Joseph Q. Clark II</child>
+         • <child>Margaret M. Clark</child>
+         • <child>Mark J. Clark</child>
+       • </offspring>
+       • </family>
+
+
+                                               
+Creating a DTD
+
+
+
+      • In this section, you create a simple DTD for the family tree XML document.
+        • The first step in creating your DTD is to type your XML declaration. This line is an
+        optional beginning for your XML documents and — as an XML document — your
+        DTD has it, too.
+       • Open Notepad and type the following:
+       • <!ELEMENT family (father, mother, offspring?)>
+• Now save this file as genealogy1.dtd. If your operating system version adds the extension .txt to
+  the filename, you may need to enclose the file name in quotes to save it properly, as shown in Figure
+
+
+
+
+                                                
+
+• Now type the remainder of the text necessary to complete your first DTD.
+• After you type all the text as shown, save the file genealogy1.dtd again.
+•   <!ELEMENT   family (father, mother, offspring?)>
+•   <!ELEMENT   father (#PCDATA)>
+•   <!ELEMENT   mother (#PCDATA)>
+•   <!ELEMENT   offspring (child+)>
+•   <!ELEMENT   child (#PCDATA)>
+
+
+
+
+                                       
+Reviewing Content Models
+
+
+
+
+      • The content model may sound mysterious, but it’s nothing more than the rule for
+        each element. The content model specifies exactly what the element may contain, the
+        order in which those elements may appear, and whether each child element is
+        optional and/or repeatable. In the following example code
+       • <!ELEMENT family (father, mother, offspring?)>
+• the content model for the family element (your tag) is (father , mother , offspring?),
+  which designates the structure that must exist within family. Because commas separate the element
+  names, they must occur in the order shown.If another symbol — a pipe (|), for example — had been
+  used and combined with an asterisk after the end parenthesis, then the elements could occur in any
+  order
+
+
+
+
+                                              
+ Understanding special symbols in content models: Possible symbols in content model
+
+
+                              Symbols After Element Name
+
+
+
+
+Content Model Symbol            Is the Element Required                        Is the Element Able
+                                or Optional?                                   to Repeat?
+
+
+
+
+Question mark (?)               Optional                                       No
+
+
+
+Asterisk (*)                    Optional                                       Yes
+
+
+
+Plus (+)                        Required                                       Yes
+
+
+
+No Symbol                       Required                                       No
+
+
+
+
+                                                           
+• DTD can be classified on its declaration basis in the XML
+  document, such as −
+  • Internal DTD
+  • External DTD
+
+
+
+
+                          
+Advantages of using DTD
+
+• Documentation − You can define your own format for the XML
+  files. Looking at this document a user/developer can understand
+  the structure of the data.
+• Validation − It gives a way to check the validity of XML files by
+  checking whether the elements appear in the right order,
+  mandatory elements and attributes are in place, the elements
+  and attributes have not been inserted in an incorrect way, and
+  so on.
+
+
+
+                              
+Disadvantages of using DTD
+
+• It does not support the namespaces. Namespace is a
+  mechanism by which element and attribute names can be
+  assigned to groups. However, in a DTD namespaces have to be
+  defined within the DTD, which violates the purpose of using
+  namespaces.
+• It supports only the text string data type.
+• It is not object oriented. Hence, the concept of inheritance
+  cannot be applied on the DTDs.
+• Limited possibilities to express the cardinality for elements.
+
+                             
+DTD - Syntax
+• An XML DTD can be either specified inside the document, or it
+  can be kept in a separate document and then the document
+  can be linked to the DTD document to use it.
+• Basic syntax of a DTD is as follows −
+
+
+
+
+                             
+DTD - Syntax
+In the above syntax −
+• DTD starts with <!DOCTYPE delimiter.
+• An element tells the parser to parse the document from the
+  specified root element.
+• DTD identifier is an identifier for the document type definition,
+  which may be the path to a file on the system or URL to a file on
+  the internet. If the DTD is pointing to external path, it is
+  called external subset.
+• The square brackets [ ] enclose an optional list of entity
+  declarations called internal subset.
+
+                              
+Internal DTD
+• A DTD is referred to as an internal DTD if elements are declared
+  within the XML files.
+• To reference it as internal DTD, standalone attribute in XML
+  declaration must be set to yes. This means the declaration works
+  independent of external source.
+• Syntax
+       The syntax of internal DTD is as shown:
+
+
+
+                                
+• where root-element is the name of root element and element-
+  declarations is where you declare the elements.
+• Example Following is a simple example of internal DTD:
+
+
+
+
+                              
+• Let us go through the above code:
+• Start Declaration- Begin the XML declaration with following statement
+
+• DTD- Immediately after the XML header, the document type
+  declaration follows, commonly referred to as the DOCTYPE:
+
+• The DOCTYPE declaration has an exclamation mark ! at the start of
+  the element name. The DOCTYPE informs the parser that a DTD is
+  associated with this XML document.
+
+                                
+DTD Body- The DOCTYPE declaration is followed by body of the DTD, where you declare elements, attributes,
+entities, and notations:
+
+
+
+
+                                               
+• DTD Body- The DOCTYPE declaration is followed by body of the DTD, where
+  you declare elements, attributes, entities, and notations:
+
+
+
+
+• Several elements are declared here that make up the vocabulary of the
+  document. defines the element name to be of type "#PCDATA". Here
+  #PCDATA means parse-able text data.
+• End Declaration - Finally, the declaration section of the DTD is closed using
+  a closing bracket and a closing angle bracket ] > . This effectively ends the
+  definition, and thereafter, the XML document follows immediately.
+
+                                    
+Rules
+• The document type declaration must appear at the start of the
+  document preceded only by the XML header - it is not permitted
+  anywhere else within the document.
+• Similar to the DOCTYPE declaration, the element declarations must
+  start with an exclamation mark.
+• The Name in the document type declaration must match the element
+  type of the root element.
+
+
+
+
+                              
+External DTD
+• In external DTD elements are declared outside the XML file. They are
+  accessed by specifying the system attributes which may be either the
+  legal .dtd file or a valid URL. To reference it as external DTD,
+  standalone attribute in the XML declaration must be set as no. This
+  means, declaration includes information from the external source.
+• Syntax
+   Following is the syntax for external DTD:
+
+where file-name is the file with .dtd extension.
+
+                                 
+• The following example shows external DTD usage:
+
+
+
+
+• The content of the DTD file address.dtd are as shown:
+
+
+
+
+                                
+Types of external DTD
+
+• You can refer to an external DTD by either using system identifiers or
+  public identifiers.
+• System Identifiers A system identifier enables you to specify the
+  location of an external file containing DTD declarations.
+• Syntax is as follows:
+
+
+
+• As you can see it contains keyword SYSTEM and a URI reference
+  pointing to the location of the document
+
+                                 
+• Public Identifiers
+       Public identifiers provide a mechanism to locate DTD resources
+       and are written as below:
+
+As you can see, it begins with keyword PUBLIC, followed by a
+specialized identifier. Public identifiers are used to identify an entry in a
+catalog. Public identifiers can follow any format, however, a commonly
+used format is called Formal Public Identifiers, or FPIs.
+
+
+                                   
+Defining elements with children
+1.<!ELEMENT employee (firstname,lastname,email)>
+2.<!ELEMENT firstname (#PCDATA)>
+3.<!ELEMENT lastname (#PCDATA)>
+4.<!ELEMENT email (#PCDATA)>
+
+
+
+
+                          
+Description of DTD
+
+• <!DOCTYPE employee : It defines that the root element of the
+  document is employee.
+• <!ELEMENT employee: It defines that the employee element
+  contains 3 elements "firstname, lastname and email".
+• <!ELEMENT firstname: It defines that the firstname element is
+  #PCDATA typed. (parse-able data type).
+• <!ELEMENT lastname: It defines that the lastname element is
+  #PCDATA typed. (parse-able data type).
+• <!ELEMENT email: It defines that the email element is
+  #PCDATA typed. (parse-able data type).
+
+                            
+XML DTD with entity declaration
+
+• A doctype declaration can also define special strings that can
+  be used in the XML file.
+• An entity has three parts:
+1.An ampersand (&)
+2.An entity name
+3.A semicolon (;)
+• Syntax to declare entity:
+• <!ENTITY entity-name "entity-value">
+
+                             
+<?xml version="1.0" standalone="yes" ?>
+<!DOCTYPE author [
+ <!ELEMENT author (#PCDATA)>
+ <!ENTITY sj "Sonoo Jaiswal">
+]>
+<author>&sj;</author>
+In the above example, sj is an entity that is used inside the author
+element. In such case, it will print the value of sj entity that is
+"Sonoo Jaiswal".
+                              
+There are 2 data types, PCDATA and CDATA
+• PCDATA is parsed character data.
+       Parsed Character Data (PCDATA) is a data definition that
+originated in Standard Generalized Markup Language (SGML),
+and is used also in Extensible Markup
+Language (XML) Document Type Definition (DTD) to designate
+mixed content XML elements.
+• CDATA is character data, not usually parsed.
+
+
+                             
+XML Validation
+
+• A well formed XML document can be validated against DTD or
+  Schema.
+• A well-formed XML document is an XML document with correct
+  syntax. It is very necessary to know about valid XML document
+  before knowing XML validation.
+
+
+
+
+                            
+Valid XML document
+
+• It must be well formed (satisfy all the basic syntax condition)
+• It should be behave according to predefined DTD or XML
+  schema
+
+
+
+
+                             
+Rules for well formed XML
+
+
+                                                •It must begin with the XML
+                                                declaration.
+                                                •It must have one unique root
+                                                element.
+                                                •All start tags of XML
+                                                documents must match end
+                                                tags.
+                                                •XML tags are case sensitive.
+                                                •All elements must be closed.
+                                                •All elements must be properly
+                                                nested.
+                                                •All attributes values must be
+                                                quoted.
+                                                •XML entities must be used for
+                                                special characters.
+
+
+
+Introduction to Schema
+
+• Document Type Definitions (DTDs) is to validate your XML documents where as xml scheme define the
+  content of xml vocabulary.
+• In 1999, the W3C began to develop XML Schemas in response to the growing need for a more advanced
+  format for describing XML documents.
+• XML Schemas are used in validation, XQuery, it can also be used in conjunction with web services and
+SOAP.
+
+• A schema is any type of model document that defines the structure of something, such as database structures
+or documents. W3C XML Schemas, much like DTDs, enable you to describe the structure of an XML
+documents.
+
+
+
+
+                                                 
+Advantages of XML DTDs
+
+  XML DTDs offer the following advantages over XML schemas
+
+   • XML DTDs use a much simpler (although much less feature-rich) syntax.
+   • XML DTDs are far less verbose than XML schemas. Most DTD files are far
+     fewer lines than an equivalent XML schema file.
+   • At least initially, XML DTDs are more widely supported by tools that
+     create, process, and validate XML documents (because XML DTDs have
+     been around longer than XML schemas).
+
+
+
+
+                                 
+DTDs limitations:
+
+   The ability to specify the type of content an element may contain is weak.
+   A DTD, for example, can’t specify that an element must be a number
+   between 5 and 12, or that an attribute value must be a positive integer.
+
+   The ability to specify occurrence rules is weak. A DTD, for example,
+   cannot specify that an element must contain at least 3 and at most 6 of a
+   given child element.
+
+   A DTD is not expressed in XML syntax. Ideally, all your XML-related
+   documents should use XML syntax, so that you can use the same set of
+   tools (including programming interfaces like the DOM) to create and
+   modify these documents.
+
+                                       
+Advantages of XML schemas
+
+  XML schemas provide the following advantages over XML DTDs
+
+
+    • XML schemas support rich data typing, which enables you
+     to constrain element contents to specific values or types of
+     data.
+    • XML schemas support XML namespaces, which allow you
+     to combine different XML vocabularies within a document.
+    • XML schemas are expressed in XML syntax, so that you
+     can create and modify your XML schemas with the tools
+     you use to create and modify your other XML documents.
+
+                                
+Schema Building Blocks
+
+
+• Defining your schema’s namespace
+     An XML schema must have the root element <schema>, with a namespace prefix
+     xsd: set to the namespace http://www.w3.org/2001/XMLSchema, as follows:
+       <xsd:schema xmlns:xsd=“http://www.w3.org/2001/XMLSchema”>
+       [...schema content...]
+       </xsd:schema>
+       With this namespace declaration, elements within the schema that are prefixed with
+       xsd: belong to the schema namespace.
+       An XML schema can also define a target namespace — that is, a namespace for the
+       vocabulary defined by the schema. This is done by setting the value of the
+       targetNamespace attribute on the root <schema> element:
+         <schema xmlns=“http://www.w3.org/2001/XMLSchema”
+         targetNamespace=“http://xmlWCC.hungryminds.com/Schema”
+         xmlns:target=“http://xmlWCC.hungryminds.com/Schema”>
+
+
+                                              
+Defining elements
+
+      • Your schema describes the structure of your XML documents, much like your DTDs.
+        To build your DTDs, you created elements and attributes. You defined a content
+        model for each element, which specified the contents of that element. In this
+        sequence of examples, you will build a schema for recipes in XML.
+        • Begin by defining an element of simple type. Simple type elements cannot have child
+        element content, nor can they have attributes. The following XML schema fragment
+        defines an element named <yield/> whose type is the predefined simple type
+        xsd:string. (Refer to Table 27-1 for a string example.)
+• <xsd:element name=“yield” type=“xsd:string”/>
+Complex type elements can have element content and attributes. The following
+
+
+
+
+                                               
+   • XML schema fragment defines a complex element named <item/>. The content
+• of <item> is defined by the <xsd:sequence/> schema element to always be
+• <measure/>, <quantity/>, and <itemname/>, with each child element
+   occurring once and in that order.
+             • <xsd:element name=“item”>
+                  • <xsd:complexType>
+                     • <xsd:sequence>
+          • <xsd:element ref=“measure”/>
+          • <xsd:element ref=“quantity”/>
+          • <xsd:element ref=“itemname”/>
+       • </xsd:sequence>
+     • </xsd:complexType>
+  • </xsd:element>
+
+
+
+
+                                      
+Defining attributes
+
+  • Because XML attributes cannot contain child elements or other attributes, they are by
+    definition a simple type. An attribute type can be any of the predefined simple types
+    from the W3C Schema Recommendation, or you can create your own simple type
+    from one of the predefined simple types. You can define an attribute by using the
+    <xsd:attribute> element, as follows:
+   • <xsd:attribute name=“attributeName” type=“attributeType”/>
+    • This is typically done as a child of the <xsd:element> that defines the element
+    in which the attribute is defined. The following XML schema fragment, for example,
+    defines a complex type element recipe, which has a required attribute meal. The
+    attribute meal is of simple type xsd:NMTOKEN, whose value can be
+    “breakfast”, “lunch”, “dinner”, “dessert”, “appetizer”, or “party”:
+
+
+
+
+                                            
+<xsd:element name=“recipe”>
+ <xsd:complexType>
+  <xsd:attribute name=“meal” use=“required”
+   <xsd:simpleType>
+    <xsd:restriction base=“xsd:NMTOKEN”>
+      <xsd:enumeration value=“breakfast,
+      lunch, dinner, dessert, appetizer,
+      party”/>
+    </xsd:restriction>
+   </xsd:simpleType
+   </xsd:attribute>
+   </xsd:complexType>
+</xsd:element>
+
+
+                    
+Defining empty elements
+
+  • You may want to create elements that have no text or child element content. These
+    elements are typically placeholders or markers. The XHTML element <hr />, for
+    example, marks the location of a rule, while a <br /> marks the location of a hard
+    line break.
+
+
+
+
+                                          
+ • You may want to mark the location of a photo or graphic in your XML docu- ment. You
+ can use an element called <image> to do this. Because you can’t actu- ally include the
+ binary image file in your XML document (because the binary data would break the rules of
+ well-formedness), you need to provide the external loca- tion of the image file. You can do
+ that through an empty element with a single attribute, like this:
+• <image href=“filename”/>
+ • Even though this element has no content, it does have an attribute, so you need to
+ define a complexType with a single attribute, href. Since href is a file- name, you
+ can declare it to be of the schema simple type string. Finally, because an <image> tag
+ with no filename location is meaningless, the href attribute is required. The resulting
+ schema fragment looks like this:
+• <xsd:element name=“image”>
+  • <xsd:complexType>
+     •<xsd:attribute name=“href” type=“xsd:string”
+      use=“required”/>
+  • </xsd:complexType></xsd:element>
+
+                                            
+• The basic idea behind XML Schemas is that they describe the
+  legitimate format that an XML document can take.
+
+
+
+
+                            
+Benefits of XML Schemas
+
+
+
+
+   XML Schemas are created using basic XML, while DTDs utilize a separate syntax.
+   XML Schemas fully support the Namespace Recommendation.
+   XML Schemas enable you to validate text element content based on built-in and user-defined datatypes.
+   XML Schemas enable you to more easily create complex and reusable content models.
+   XML Schemas enable the modelling of Programming concepts such as object inheritance and type
+    substitution.
+
+
+
+
+                                                  
+XML Schemas Use XML Syntax
+
+
+
+
+• The syntax, as you learned adds a lot to the basic rules for XML well formedness. When defining an XML
+  Schema, the syntax is entirely in XML; although you still have to learn the rules regarding which elements
+  and attributes are required in given declarations, you can use generic XML tools. Extensible Stylesheet
+  Language Transformations (XSLT) can be used to work with XML Schemas, but cannot be used on DTDs.
+
+
+
+
+                                                   
+XML Schema Namespace Support
+
+• Because XML Schemas were finalized after the Namespace Recommendation. Unlike DTDs, which do not
+  support the full functionality of namespaces, XML Schema it is not necessary to specify namespace
+  prefixes as you must in DTDs.
+
+
+
+
+                                           
+XML Schema Data Types
+
+• When you were developing your DTDs, you could specify that an element had mixed content, element
+content, or empty content. Unfortunately, when your elements contained only text, you couldn’t any constraints
+on the format of the text.
+
+• XML Schemas divide datatypes into two broad categories: Simple and complex.
+
+
+
+
+                                                  
+Do We Still Need DTDs ?
+
+• DTDs are extremely useful even with the advent of XML Schemas. Although XML Schemas provide better
+features for describing documents- as well as a more common syntax-they provide no ENTITY functionality.
+The ENTITY declaration is of paramount importance.
+
+• DTDs also have a special prominence because they are the only definition and validation mechanism
+embedded within the XML Recommendation. This enables DTDs to be embedded directly in the XML
+documents they are describing. All other syntaxes require a separate file.
+
+
+
+
+                                                    
+<Schema> Declarations
+
+• <Schema> element is the root element . <Schema> element enables you to declare
+  namespace information as well as defaults for declarations throughout the
+  document. You can also include a version attribute that helps to identify the XML
+  Schema and the version of your vocabulary:
+• <schema targetNamespace=”URI”
+      attributeFromDefault=“qualified or unualified”
+      elementFromDefault=“qualified or unualified”
+      Version=“version number”>
+
+
+
+                                      
+The XML Schema Namespace
+• Name space can be declared within <schema> element which means
+<schema> element is part of XML Schema vocabulary.
+• Namespace is also case sensitive, just like XML
+• Example use any of the following <schema>
+• <schema xmlns=”http://www.w3.org/2001/XMLSchema”>
+• <xs:schema xmlns:xsd=”http://www.w3.org/2001/XMLSchema”>
+• <xsd:schema xmlns:xsd=”http://www.w3.org/2001/XMLSchema”>
+
+• Namespace prefix is insignificant it only shortcut to declarations
+
+
+                                         
+Element and Attribute Qualification
+
+
+• Elements and attributes and attributes may be qualified or unqualified.
+• An element or attribute is qualified if it has an associated namespace.
+
+     <n:name xmlns:n=“http://www,example.com/namb”>
+
+     <n.first>John</n.first>
+
+     <n.middle> Fitzgerald</n.middle>
+
+     <n.last>Doe</n.last>
+
+• Unqualified elements have no associated namespace:
+     <n:name xmlns:n=”http://www.example.com/name”>
+
+     <first>john</first>
+
+     <middle>Fitzgerald</middle>
+
+     <last>Doe</last>
+
+     </n:name>
+
+
+
+                                                      
+<element> Declarations
+
+• When declaring an element, you are actually performing two primary: specifying the element name defining
+the allowable content:
+
+• XML Schemas allow you to specify an element’s type in one of two ways:
+
+   Creating a local type
+   Using a global type
+
+
+
+
+                                                
+Elements
+
+• XML - Elements , elements are the building blocks of XML
+  document. An element can be defined within an XSD as
+  follows:-
+
+
+
+
+                          
+Global versus Local
+
+ Global declarations are declarations that appears as direct children of the <schema> element.
+         Global element declarations can be reused throughout the XML Schema.
+ Local declaration do not have the <schema> element as their direct parent and can be used only in
+   their specific context.
+
+• This XML Schema has four element declarations. The<name> is a global<first>,<middle, and <last> local
+because the declarations are not direct children of the <schema> element. <first>, <middle>, and <last>
+elements are valid only within the <sequence> declaration-they cannot be reused elsewhere in the XML Schema.
+
+
+
+
+                                                 
+<?xml version= ”1.0”>
+<schema xmlns= “http://www.w3.org/2001/XMLSchema”
+Xmlns:target=“ http://www.example.com/name”
+targetNamespace=“ http://www.example.com/name”
+elementFormDefault= “qualified”>
+<element name= “name”>
+<complexType>
+<sequence>
+<element name= “first” type = string”/>
+<element ame= “middle” type= “string”/>
+<element name= “last” type=string”/>
+</sequence>
+<attribute name= “title” type= “string”/>
+</complexType> </element> </Schema>
+
+
+
+
+                                                    
+Local Type
+<element name= “name”>
+<complexType>
+<sequence>
+<element name= “first” type = “string”/>
+<element name= “middle” type= “string”/>
+<element name= “last” type=string”/>
+</sequence>
+<attribute name= “title” type= “string”/>
+</complexType> </element>
+
+
+                                     
+Using Global type
+<xs:schema xmlns: xs= “http://www.w3.org/2001/XMLSchema”
+Xmlns=“ http://www.example.com/name”
+targetNamespace=“ http://www.example.com/name”
+elementsfronDefault=“Qualified”>
+<xs:complexType name=“Nametype”>
+<xs:sequence>
+   <xs: element name= “first” type = “xs:string”/>
+  <xs:element ame= “middle” type= “xs:string”/>
+  <xs:element name= “last” type=“xs:string”/>
+  </ xs:sequence>
+  <xs:attribute name= “title” type= “xs:string”/>
+  </xs:complexType> <xs:element name=“name” type =“NameType”/>
+
+   </xs:Schema>
+
+
+
+
+                                                       
+Creating schema from multiple documents
+<import> Declarations
+
+• The <import> declaration, as the name implies, allows you to import global declarations from other XML
+Schemas. The <import>declaration is used primarily for combing XML Schemas that have different
+targetNamespaces. Two XML Schemas can be used in conjunction within an instance document. <import>
+declaration allows you to refer to declarations only within other XML Schemas. The <include> declaration,
+which includes the declaration directly into the XML Schema as if they had been declared.
+
+         <import
+
+         Namespace= “ ”
+
+         schemaLocation=“ ”>
+
+
+                                                  
+<Include> Decalrations
+• The <include: declaration is very similar to the <import> declaration. Unlike the
+<import> declaration however, the <include> declaration allows you to combine XML
+Schemas that are the designed for the same targetNamespace (or no targetNamespace) much
+more effectively.
+  <include
+  schemaLocation= “ ”>
+• Notice that within the <include>declaration there is no namespace attribute.
+
+
+                                          
+Definition Types
+
+• You can define XML schema elements in the following ways −
+• Simple Type:-Simple type element is used only in the context of
+  the text.
+• Some of the predefined simple types are:
+xs:integer,
+xs:boolean,
+xs:string,
+xs:date.
+
+                              
+• For example −
+
+
+
+
+                  
+Complex Type
+• A complex type is a container for other element definitions. This allows you to specify
+  which child elements an element can contain and to provide some structure within your
+  XML documents.
+• For example −
+
+
+
+
+• In the above example, Address element consists of child elements. This is a container for
+  other <xs:element> definitions, that allows to build a simple hierarchy of elements in the
+  XML document.
+
+
+                                         
+Global Types
+• With the global type, you can define a single type in your
+  document, which can be used by all other references. For
+  example,     suppose      you    want     to     generalize
+  the person and company for different addresses of the
+  company. In such case, you can define a general type as
+  follows −
+
+
+
+
+                           
+
+• Instead of having to define the name and the company twice
+  (once for Address1 and once for Address2), we now have a
+  single definition. This makes maintenance simpler, i.e., if you
+  decide to add "Postcode" elements to the address, you need to
+  add them at just one place.
+• Attributes
+• Attributes in XSD provide extra information within an element.
+  Attributes have name and type property as shown below −
+
+
+
+                             
+Namespace
+• A Namespace is a set of unique names. Namespace is a
+  mechanisms by which element and attribute name can be
+  assigned to a group. The Namespace is identified by
+  URI(Uniform Resource Identifiers).
+• Namespace Declaration
+• A Namespace is declared using reserved attributes. Such an
+  attribute   name     must      either be xmlns or    begin
+  with xmlns: shown as below −
+
+
+
+                           
+Syntax
+• The Namespace starts with the keyword xmlns.
+• The word name is the Namespace prefix.
+• The URL is the Namespace identifier.
+Example
+• Namespace affects only a limited area in the document. An
+  element containing the declaration and all of its descendants
+  are in the scope of the Namespace. Following is a simple
+  example of XML Namespace −
+                            
+Here, the Namespace prefix is cont, and the Namespace identifier (URI)
+as www.tutorialspoint.com/profile. This means, the element names and
+attribute names with the cont prefix (including the contact element), all
+belong to the www.tutorialspoint.com/profile namespace.
+
+
+                                       
+• XML Schema data types can be generally categorized a
+  "simple type" (including embedded simple type) and
+  "complex type." The "embedded simple type" is already
+  defined, but can be used to create a new type through
+  restriction or extension.
+
+
+
+
+                         
+• A simple type is a type that only contains text data when
+  expressed according to XML 1.0. This type can be used with
+  element declarations and attribute declarations. The
+  embedded simple type is provided for in XML Schema Part
+• A restriction may be placed on an embedded simple type to
+  create a new, unique simple type.
+• On the other hand, a complex data type is a type that has a
+  child element or attribute structure when expressed
+  according to XML 1.0. An element declaration may be used
+  with this type. There are no predefined complex type data
+  types, so the user will always define their own.
+                            
+●Simple Type Example
+<xs:element name="Department" type="xs:string" />
+Here, the section described together with "xs:string" is an embedded simple type
+according to XML Schema. In this example, we have established the definition that the
+data type for the element called "Department" is a text string.
+
+
+
+
+                                      
+Complex Type Example
+<xs:complexType name="EmployeeType">
+ <xs:sequence maxOccurs="unbounded">
+   <xs:element ref="Name" />
+   <xs:element ref="Department" />
+ </xs:sequence>
+</xs:complexType>
+<xs:element name="Name" type="xs:string" />
+<xs:element name="Department" type="xs:string" />
+In this case the type name "EmployeeType" is designated by the name attribute of the
+complexType element. A model group (what designates the order of occurrence for the
+child element) is designated in the child element.
+New types are created by placing restrictions on or extending simple or complex types.
+In this volume, we will discuss restrictions and extensions for simple types.
+                                         
+
+About the XSLT
+• EXtensible Stylesheet Language Transformation,
+  commonly known as XSLT, is a way to transform the
+  XML document into other formats such as XHTML.
+XSL
+
+• Before learning XSLT, we should first understand XSL
+which stands for EXtensible
+• Stylesheet Language. It is similar to XML as CSS is to
+HTML.
+Need for XSL
+
+• In case of HTML document, tags are predefined such as table, div, and
+span; and the browser knows how to add style to them and display
+those using CSS styles. But in case of XML documents, tags are not
+predefined. In order to understand and style an XML document, World
+Wide Web Consortium (W3C) developed XSL which can act as XML based
+Stylesheet Language. An XSL document specifies how a browser should
+render an XML document.
+• Following are the main parts of XSL:
+   XSLT - used to transform XML document into various other types of
+    document.
+   XPath - used to navigate XML document.
+   XSL-FO - used to format XML document.
+What is XSLT
+
+• XSLT, Extensible Stylesheet Language Transformations, provides the
+  ability to transform XML data from one format to another
+  automatically.
+• How XSLT Works
+• An XSLT stylesheet is used to define the transformation rules to be
+applied on the target XML document.
+• XSLT stylesheet is written in XML format.
+• XSLT Processor takes the XSLT             stylesheet and applies the
+transformation rules on the target XML document and then it generates
+a formatted document in the form of XML, HTML, or text format.
+• This formatted      document is then utilized by XSLT formatter to
+generate the actual output which is to be displayed to the end-user.
+Introduction to XSL
+
+  • Reuse and repurposing of information presents some interesting challenges. Different
+    output devices don’t provide the same display capabilities. Display screens vary widely in
+    size and amount of content they can present. Different out- put devices don’t even
+    understand the same file formats! Web browsers, printers, and cell phone displays each
+    require a significantly different set of instructions for rendering information. Take a look at
+    the following typical XML document, and the instructions you need to render the content
+    of that XML document on a Web browser, cell phone display, and hardcopy printer:
+   • XML fragment:
+     • <headline>MegaCorp Merger Announced</headline>
+   • HTML version:
+     • <h1>MegaCorp Merger Announced</h1>
+   • WML version (for cell phone screens):
+     • <wml><card>MegaCorp Merger Announced</card></wml>
+   • Printed version:
+     • <fo:block>MegaCorp Merger Announced</fo:block>
+Advantages
+
+• Here are the advantages of using XSLT:
+   Independent of programming. Transformations are
+    written in a separate xsl file which is again an XML
+    document.
+
+  Output can be altered by simply modifying the
+   transformations in xsl file. No need to change any
+   code. So Web designers can edit the stylesheet and
+   can see the change in the output quickly.
+ Transforming XML to HTML
+
+
+
+• XML fragment
+  • <message>This is a very important message!</message>
+
+• XSLT fragment
+  • <xsl:template match=“message”>
+    • <H1><xsl:value-of select=“.”/></H1>
+  • </xsl:template>
+
+• Result document
+  • <H1>This is a very important message!</H1>
+• An XSLT template consists of both
+    XSLT elements:- which are the commands and functions of the XSLT language.
+    Literal result elements:- which are copied to the result document without modification.
+In this example, the HTML tags <H1> and </H1> are literal result elements — these elements are
+written as-is to the result document.
+The XSLT statement <xsl:value-of select=“.”/> matches the string content of the current
+element — in this case the <message> element.
+The XSLT statement gets replaced with the value of the current element.
+• Because XSLT is declarative, and not procedural, no template can affect the results of another template.
+  Most significantly, this means that an XSLT style sheet cannot update variables or maintain counters
+  during execution. In theory, the template rules of an XSLT style sheet could be distributed across a
+  multiprocessor machine, with each template executed by a different processor, and the results of each
+  processor combined in the end.
+Layout of an XSL Document and Templates
+   • XSLT is a declarative language. An XSLT program is comprised of a set of tem- plates.
+   The templates match patterns — XML element and attributes — in the source tree
+   and define the contents of the result tree when those patterns are encountered.
+   Here’s an example:
+  . XML fragment
+    • <message>This is a very important message!</message>
+  . XSLT fragment
+    • <xsl:template match=“message”>
+      • <H1><xsl:value-of select=“.”/></H1>
+    • </xsl:template>
+  . Result document
+    • <H1>This is a very important message!</H1>
+
+
+    <xsl:value-of select=“.”/> matches the string content of the current element
+Layout of an XSL Document and Templates
+• An XSL style sheet consists of one or more set of rules
+  that are called templates.
+• A template contains rules to apply when a specified
+  node is matched.
+Specifying your XSLT style sheet vocabulary
+
+  • An XSLT style sheet must have a root element <xsl:stylesheet>. This root ele- ment informs the
+    XSLT processor that the file is an XSLT style sheet, tells the processor that all elements that begin
+    with xsl: are XSLT instructions, and tells the processor that the instructions conform to version
+    1.0 of the XSLT Recommendation. Here is the literal begin tag for the root element of your XSLT style
+    sheet:
+     • <xsl:stylesheet xmlns:xsl=“http://www.w3.org/1999/XSL/Transform”
+   • version=“1.0”>
+   • The following begin tag is also legal:
+     • <xsl:transform xmlns:xsl=“http://www.w3.org/1999/XSL/Transform”
+   • version=“1.0”>
+   • You may occasionally see style sheets that start with this line:
+   • <xsl:stylesheet xmlns:xsl=“http://www.w3.org/TR/WD-xsl”>
+    • The xmlns:xsl attribute value of http://www.w3.org/TR/WD-xsl means that the style
+    sheet uses an older draft version of the XSLT language and may not work with many current XSLT
+    processors.
+XSLT - Transformation
+
+• Correct Style Sheet Declaration:-
+• The root element that declares the document to be an
+  XSL style sheet is <xsl:stylesheet> or <xsl:transform>.
+• Note: <xsl:stylesheet> and <xsl:transform> are
+  completely synonymous and either can be used!
+• The correct way to declare an XSL style sheet according
+  to the W3C XSLT Recommendation is:
+• <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+• OR
+
+• <xsl:transform version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+Start with a Raw XML Document
+
+• <?xml version="1.0" encoding="UTF-8"?>
+  <catalog>
+    <cd>
+      <title>Empire Burlesque</title>
+      <artist>Bob Dylan</artist>
+      <country>USA</country>
+      <company>Columbia</company>
+      <price>10.90</price>
+      <year>1985</year>
+    </cd>
+  .
+  .
+  </catalog>
+Output: cdcatalog.xml -
+Create an XSL Style Sheet
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <body>
+    <h2>My CD Collection</h2>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>Title</th>
+        <th>Artist</th>
+      </tr>
+      <xsl:for-each select="catalog/cd">
+      <tr>
+        <td><xsl:value-of select="title"/></td>
+        <td><xsl:value-of select="artist"/></td>
+      </tr>
+      </xsl:for-each>
+    </table>
+    </body>
+    </html>
+  </xsl:template>
+  </xsl:stylesheet>
+OUTPUT "cdcatalog.xsl"
+Link the XSL Style Sheet to the XML
+Document
+• Add the XSL style sheet reference to your XML document
+  ("cdcatalog.xml"):
+• <?xml version="1.0" encoding="UTF-8"?>
+  <?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+  <catalog>
+    <cd>
+      <title>Empire Burlesque</title>
+      <artist>Bob Dylan</artist>
+      <country>USA</country>
+      <company>Columbia</company>
+      <price>10.90</price>
+      <year>1985</year>
+    </cd>
+  .
+  .
+  </catalog>
+The <xsl:template> Element
+
+• The <xsl:template> element is used to build templates.
+• The match attribute is used to associate a template
+  with an XML element. The match attribute can also be
+  used to define a template for the entire XML document.
+  The value of the match attribute is an XPath expression
+  (i.e. match="/" defines the whole document).
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <body>
+    <h2>My CD Collection</h2>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>Title</th>
+        <th>Artist</th>
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+    </table>
+    </body>
+    </html>
+  </xsl:template>
+  </xsl:stylesheet>
+Output
+Example Explained
+• Since an XSL style sheet is an XML document, it always begins with the XML
+  declaration: <?xml version="1.0" encoding="UTF-8"?>.
+• The next element, <xsl:stylesheet>, defines that this document is an XSLT style
+  sheet document (along with the version number and XSLT namespace attributes).
+• The <xsl:template> element defines a template. The match="/" attribute
+  associates the template with the root of the XML source document.
+• The content inside the <xsl:template> element defines some HTML to write to the
+  output.
+• The last two lines define the end of the template and the end of the style sheet.
+• The result from this example was a little disappointing, because no data was copied
+  from the XML document to the output. In the upcoming slides you will learn how to
+  use the <xsl:value-of> element to select values from the XML elements.
+•
+xsl:output
+Definition and Usage
+• The <xsl:output> element defines the format of the
+  output document of an XSLT transformation.
+• Note: <xsl:output> is a top-level element, and must
+  appear as a child node of <xsl:stylesheet> or
+  <xsl:transform>.
+Syntax
+• <xsl:output
+  method="xml|html|text|name"
+  version="string"/>
+Example 1
+
+• The output in this example will be an XML document, version
+  1.0. The character encoding is set to "UTF-8" and the output will
+  be indented for readability:
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+ <xsl:output method="xml" version="1.0"
+ encoding="UTF-8" indent="yes"/>
+ ...
+ ...
+ </xsl:stylesheet>
+Example 2
+
+• The output in this example will be an HTML document, version
+  4.0. The character encoding is set to "UTF-8" and the output will
+  be indented for readability:
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+ <xsl:output method="html" version="4.0"
+ encoding="UTF-8" indent="yes"/>
+ ...
+ ...
+ </xsl:stylesheet>
+xsl:apply-templates
+• The <xsl:apply-templates> element applies a template
+  to the current element or to the current element's child
+  nodes.
+• If we add a select attribute to the <xsl:apply-
+  templates> element it will process only the child
+  element that matches the value of the attribute. We can
+  use the select attribute to specify in which order the
+  child nodes are to be processed.
+Syntax
+
+• <xsl:apply-
+  templates select="expression" mode="name">
+
+   <!-- Content:(xsl:sort|xsl:with-param)* -->
+
+ </xsl:apply-templates>
+Attributes
+
+
+Attribute    Value        Description
+select       expression   Optional. Specifies the nodes to be
+                          processed. An asterisk selects the entire
+                          node-set. If this attribute is omitted, all
+                          child nodes of the current node will be
+                          selected
+
+
+mode         name         Optional. If there are multiple ways of
+                          processing defined for the same element,
+                          distinguishes among them
+Root
+• Processing starts at the root. To force processing of the entire tree,
+  the default behavior is to apply
+• templates to all the children. The rule looks like this:
+• <xsl:template match="/">
+• <xsl:apply-templates/>
+• </xsl:template>
+Element
+• We want the processor to touch every element in the tree so it
+  doesn't miss any branches for which
+• rules are defined. The rule is similar to that for the root node:
+• <xsl:template match="*">
+• <xsl:apply-templates/>
+• </xsl:template>
+Attribute
+• The value of every attribute should be included in the result tree, so
+  the following rule is used:
+• <xsl:template match="@*">
+• <xsl:value-of select="."/>
+• </xsl:template>
+Example 1
+
+• Wrap a single h1 element around each title element in
+  the document:
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+ <xsl:template match="title">
+   <h1><xsl:apply-templates/></h1>
+ </xsl:template>
+ </xsl:stylesheet>
+Example 2
+• Wrap a single h1 element around all the title elements
+  which are children of message:
+• <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+ <xsl:template match="message">
+   <h1><xsl:apply-templates select="title"/></h1>
+ </xsl:template>
+ </xsl:stylesheet>
+Example 3
+
+• Wrap a single h1 element around all the child nodes of
+  message that have the mode attribute set to "big":
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="message">
+  <h1><xsl:apply-templates select="*" mode="big"/></h1>
+</xsl:template>
+</xsl:stylesheet>
+xsl:for-each
+• The XSL <xsl:for-each> element can be used to select every XML
+  element of a specified node-set:
+• <?xml version="1.0" encoding="UTF-8"?>
+• <catalog>
+• <cd>
+• <title>Empire Burlesque</title>
+• <artist>Bob Dylan</artist>
+• <country>USA</country>
+• <company>Columbia</company>
+• <price>10.90</price>
+• <year>1985</year>
+• </cd>
+• <cd>
+• <title>Hide your heart</title>
+• <artist>Bonnie Tyler</artist>
+• <country>UK</country>
+• <company>CBS Records</company>
+• <price>9.90</price>
+• <year>1988</year>
+• </cd>
+•
+• <cd>
+• <title>Greatest Hits</title>
+• <artist>Dolly Parton</artist>
+• <country>USA</country>
+• <company>RCA</company>
+• <price>9.90</price>
+• <year>1982</year>
+• </cd>
+• <?xml version="1.0" encoding="UTF-8"?>
+• <xsl:stylesheet version="1.0"
+• xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+• <xsl:template match="/">
+• <html>
+• <body>
+• <h2>My CD Collection</h2>
+• <table border="1">
+•    <tr bgcolor="#9acd32">
+• <th>Title</th>
+•     <th>Artist</th>
+•    </tr>
+•    <xsl:for-each select="catalog/cd">
+•    <tr>
+•     <td><xsl:value-of select="title" /></td>
+•     <td><xsl:value-of select="artist" /></td>
+•    </tr>
+•    </xsl:for-each>
+•   </table>
+• </body>
+• </html>
+• </xsl:template>
+• </xsl:stylesheet>
+Output
+Filtering the Output
+• We can also filter the output from the XML file by
+  adding a criterion to the select attribute in the <xsl:for-
+  each> element.
+• <xsl:for-each select="catalog/cd[artist='Bob
+  Dylan']">
+Legal filter operators are:
+• = (equal)
+• != (not equal)
+• &lt; less than
+• &gt; greater than
+xsl:if
+• The <xsl:if> element contains a template that will be
+  applied only if a specified condition is true.
+
+• Tip: Use <xsl:choose> in conjunction with <xsl:when>
+  and <xsl:otherwise> to express multiple conditional
+  tests!
+Syntax
+• <xsl:if
+  test="expression">
+
+     <!-- Content: template -->
+
+    </xsl:if>
+•
+Attributes
+   Attribute   Value        Description
+
+   test        expression   Required. Specifies the condition to be tested
+xsl:value-of
+• The <xsl:value-of> element extracts the value of a
+  selected node.
+• The <xsl:value-of> element can be used to select the
+  value of an XML element and add it to the output.
+Syntax
+• <xsl:value-of select="expression" disable-output-
+  escaping="yes|no" />
+Attributes
+Attribute                 Value        Description
+select                    expression   Required. An XPath expression that specifies
+                                       which node/attribute to extract the value from.
+                                       It works like navigating a file system where a
+                                       forward slash (/) selects subdirectories.
+
+
+
+disable-output-escaping   yes          Optional. "yes" indicates that special
+                          no           characters (like "<") should be output as is.
+                                       "no" indicates that special characters (like "<")
+                                       should be output as "&lt;". Default is "no"
+
+
+
+                            
+
